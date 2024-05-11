@@ -1,0 +1,31 @@
+{
+    "url": "https://www.othoba.com/",
+    "site_id": "2",
+    "commands": [
+        {
+            "command": "sleep",
+            "time": "1"
+        },
+        {
+            "selector": "id",
+            "path": "search-input",
+            "command": "type",
+            "search": "book shelf"
+        },
+        {
+            "selector": "css_selector",
+            "path": "button[class*='btn-search']",
+            "command": "click"
+        },
+        {
+            "command": "sleep",
+            "time": "5"
+        },
+        {
+            "command": "list_products",
+            "path": "div[class='product-wrap dl-all-product-from-pages']",
+            "title_path": "h4[class='product-name']",
+            "price_path": "ins[class='new-price dl-new-price-product']"
+        }
+    ]
+}

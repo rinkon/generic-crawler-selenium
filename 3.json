@@ -1,0 +1,40 @@
+{
+    "url": "https://www.pickaboo.com/",
+    "site_id": "2",
+    "commands": [
+        {
+            "command": "sleep",
+            "time": "10"
+        },
+        {
+            "selector": "css_selector",
+            "path": "div[class='close-btn']",
+            "command": "click"
+        },
+        {
+            "command": "sleep",
+            "time": "2"
+        },
+        {
+            "selector": "css_selector",
+            "path": "input[class*='searchInput']",
+            "command": "type",
+            "search": "table lamp"
+        },
+        {
+            "selector": "css_selector",
+            "path": "button[type='submit']",
+            "command": "click"
+        },
+        {
+            "command": "sleep",
+            "time": "5"
+        },
+        {
+            "command": "list_products",
+            "path": "div[class*='ProductOne__StyledProductOne']",
+            "title_path": "h4[class='product-title']",
+            "price_path": "p[class='product-price']"
+        }
+    ]
+}
