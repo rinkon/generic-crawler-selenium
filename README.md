@@ -13,3 +13,5 @@ Website codes:
 Keep chromedriver in the same directory.
 
 Change input json file for search keyword.
+
+The output file naming ```{site_id}_output.json```
