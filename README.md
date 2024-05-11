@@ -14,4 +14,4 @@ Keep chromedriver in the same directory.
 
 Change input json file for search keyword.
 
-The output file naming ```{site_id}_output.json```
+The output file will of name ```{site_id}_output.json```
