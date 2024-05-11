@@ -1,6 +1,6 @@
 Add website code as argument for running the script.
 
-example <code>python3 generelised_sel.py 1<code>
+example ```python3 generelised_sel.py 1```
 
 Website codes:
 
@@ -11,3 +11,5 @@ Website codes:
 3 for https://www.pickaboo.com/
 
 Keep chromedriver in the same directory.
+
+Change input json file for search keyword.
